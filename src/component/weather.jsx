@@ -41,8 +41,9 @@ const Temp = () => {
   }, []);
 
   return (
-    <>
-      <div className="wrap">
+    <div className="main">
+     <div className="main-website">
+     <div className="wrap">
         <div className="search">
           <input
             type="search"
@@ -65,7 +66,9 @@ const Temp = () => {
 
       {/* our temp card  */}
       <Weathercard {...tempInfo} />
-    </>
+
+     </div>
+    </div>
   );
 };
 
