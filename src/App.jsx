@@ -9,5 +9,5 @@ function App() {
     </>
   )
 }
-//App.js
+
 export default App;
